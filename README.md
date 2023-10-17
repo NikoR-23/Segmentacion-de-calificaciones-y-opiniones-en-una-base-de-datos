@@ -4,7 +4,7 @@
    
 ## Carga de los datos
 + En primer lugar se debe descargar base en formato de archivo json (compatible con el software). Se encuentra en repositorio llamada como “datos”
-+ Se ingresa con usuario y contraseña a CouchDB y en el servidor, se crea una base de datos. Se ingresa al apartado “Databases” y en la parte superior
++ En segundo lugar, se ingresa con usuario y contraseña a CouchDB y en el servidor, se crea una base de datos. Se ingresa al apartado “Databases” y en la parte superior
   derecha sale “Create Database”, al crear la base de datos se debe desprende información por llenar de la base como nombre (base_tarea es como se la llamrá)
   y se selecciona ”Non-partitioned - recommended for most workloads” y se finaliza la creación en “Create”
 
@@ -138,12 +138,12 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 + Al aceptar la licencia, y para utilizarlo de manera gratuita se selecciona el modo Noseguro(Unsecured)
 
 ## Carga de los datos
-+ En primer lugar se debe descargar base en formato de archivo csv (compatible con el software)
++ En primer lugar, se debe descargar base en formato de archivo csv (compatible con el software)
 + Se ingresa al apartado “Bases” en la lista de íconos a la izquierda.
 + Se presiona el botón "Nueva base de datos" y se le otorga un nombre a esta.
 + Como se quiere cargar una base de datos, ahora en el ícono de tareas se selecciona "importar datos"
 + Se podrán observar los formatos de archivo soportados (ravendbdump, CSV, SQL, NoSQL)
-+ Se selecciona por ejemplo archivo CSV, se importa el archivo y se escribe el nombre de la colección a la que se quiere descargar. Cuando ya se encuentre procesado, todos los datos se podrán observar en la colección seleccionada.
++ En segundo lugar, se selecciona en este caso, archivo CSV, se importa el archivo y se escribe el nombre de la colección a la que se quiere descargar. Cuando ya se encuentre procesado, todos los datos se podrán observar en la colección seleccionada.
 + Si la base de datos contiene valores "missing", Ravendb los colocará de primer lugar en la base.
 
   
@@ -155,7 +155,7 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 
 ## Consultas
 
-+ Seguidamente, en el apartado “Cosulta”, igualmente en la colección deseada, se desplega un "Query", donde se ingresa el script dependiendo de lo que se desee extraer de la base de datos. Abajo del Query se observarán los resultados, y el tiempo en el que realizó la consulta.
++ Seguidamente, en el apartado “Consulta”, igualmente en la colección deseada, se desplega un "Query", donde se ingresa el script dependiendo de lo que se desee extraer de la base de datos. Abajo del Query se observarán los resultados, y el tiempo en el que realizó la consulta.
 
   
   ![](https://user-images.githubusercontent.com/144878444/275914148-427f4a93-5dc9-4e85-97df-e235592433c2.png)
