@@ -186,5 +186,10 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
    group by Rating
    select key as Rating, count() as Count
 ```
-   
+### Buscar reviews que incluyan la palabra "Great" (ya sea en mayúscula o minúscula)
 
+```
+from "Disneycsv" 
+where regex(Review_Text, "Great")
+
+```
