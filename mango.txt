@@ -1,0 +1,48 @@
+## Para seleccionar donde Reviewer_Location sea "Australia"
+
+{
+   "selector": {
+      "Reviewer_Location": "Australia"
+   }
+}  
+
+
+## Selccionar donde el rating sea 4 y 5
+{
+   "selector": {
+      "Rating": {
+         "$in": [
+            "4",
+            "5"
+         ]
+      }
+   }
+} 
+
+
+## Seleccionar cuando sea el DisneyLand de California y tenga rating 3 y 4
+{
+   "selector": {
+      "Branch": "Disneyland_California",
+      "Rating": {
+         "$in": [
+            "3",
+            "4"
+         ]
+      }
+   }
+} 
+
+
+## Seleccionar cuando el Reviewer_Location sea "Australia" y el rating sea 2 y 3
+{
+   "selector": {
+      "Reviewer_Location": "Australia",
+      "Rating": {
+         "$in": [
+            "2",
+            "3"
+         ]
+      }
+   }
+}
