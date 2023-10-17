@@ -46,3 +46,14 @@
       }
    }
 }
+
+
+## Buscar reviews que incluyan la palabra "Great" (ya sea en mayúscula o minúscula)
+{
+   "selector": {
+      "Review_Text": {
+         "$regex": "(G|g)reat"
+      }
+   }
+
+
