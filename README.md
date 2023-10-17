@@ -49,3 +49,83 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
   “Mango” y se debe ingresar una por una en el espacio del mango query para que brinde las filas con la información deseada.
 
   ![](https://user-images.githubusercontent.com/147458630/275691727-9865ad5b-888f-4832-963a-6a6c8904a598.png)
+
+  
+### Para seleccionar donde Reviewer_Location sea "Australia"
+```
+
+{
+   "selector": {
+      "Reviewer_Location": "Australia"
+   }
+}  
+
+ ```
+
+
+### Selccionar donde el rating sea 4 y 5
+ ```
+
+{
+   "selector": {
+      "Rating": {
+         "$in": [
+            "4",
+            "5"
+         ]
+      }
+   }
+}
+
+```
+
+
+### Seleccionar cuando sea el DisneyLand de California y tenga rating 3 y 4
+```
+
+{
+   "selector": {
+      "Branch": "Disneyland_California",
+      "Rating": {
+         "$in": [
+            "3",
+            "4"
+         ]
+      }
+   }
+} 
+
+```
+
+
+### Seleccionar cuando el Reviewer_Location sea "Australia" y el rating sea 2 y 3
+```
+
+{
+   "selector": {
+      "Reviewer_Location": "Australia",
+      "Rating": {
+         "$in": [
+            "2",
+            "3"
+         ]
+      }
+   }
+}
+
+```
+
+
+### Buscar reviews que incluyan la palabra "Great" (ya sea en mayúscula o minúscula)
+```
+
+{
+   "selector": {
+      "Review_Text": {
+         "$regex": "(G|g)reat"
+      }
+   }
+}
+
+
+```
