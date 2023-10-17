@@ -48,6 +48,7 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
   cuadro de “Mango Query” en donde se deben ir realizando las consultas de seleccionar y filtrar.  Se encuentran en el archivo de texto llamado
   “Mango” y se debe ingresar una por una en el espacio del mango query para que brinde las filas con la información deseada.
 
+
   ![](https://user-images.githubusercontent.com/147458630/275691727-9865ad5b-888f-4832-963a-6a6c8904a598.png)
 
   
@@ -145,9 +146,19 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 + Se selecciona por ejemplo archivo CSV, se importa el archivo y se escribe el nombre de la colección a la que se quiere descargar. Cuando ya se encuentre procesado, todos los datos se podrán observar en la colección seleccionada.
 + Si la base de datos contiene valores "missing", Ravendb los colocará de primer lugar en la base.
 
+  
+ ![](https://user-images.githubusercontent.com/144878444/275912706-e25c0f5f-cf15-43b2-9532-5a98c4513a62.png)
+ 
+
+ ![](https://user-images.githubusercontent.com/144878444/275913650-d92e2a21-7cd6-4d64-b3d1-c473041102df.png)
+
+
 ## Consultas
 
-+ Seguidamente, en el apartado “Cosulta”, igualmente en la colección deseada, se desplega un "Query", donde se ingresa el script dependiendo de lo que se desee extraer de la base de datos. Abajo del Query se observarán los resultados, y el tiempo en el que realizó la consulta. 
++ Seguidamente, en el apartado “Cosulta”, igualmente en la colección deseada, se desplega un "Query", donde se ingresa el script dependiendo de lo que se desee extraer de la base de datos. Abajo del Query se observarán los resultados, y el tiempo en el que realizó la consulta.
+
+  
+  ![](https://user-images.githubusercontent.com/144878444/275914148-427f4a93-5dc9-4e85-97df-e235592433c2.png)
 
  ### Para seleccionar donde Reviewer_Location sea "Australia"
  ```
