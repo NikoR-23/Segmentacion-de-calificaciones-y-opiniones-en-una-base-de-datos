@@ -129,3 +129,51 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 
 
 ```
+## Instalación de RavenDB
++ Descargar RavenDB en https://ravendb.net/download (se escoge el sistema operativo)
++ Extraer el archivo zip en la carpeta de descarga.
++ Ejecutar con Power Shell el archivo que llamado "run"
++ Se abrirá de manera automática el navegador y se desplegará la aceptación de licencia
++ Al aceptar la licencia, y para utilizarlo de manera gratuita se selecciona el modo Noseguro(Unsecured)
+
+## Carga de los datos
++ En primer lugar se debe descargar base en formato de archivo csv (compatible con el software)
++ Se ingresa al apartado “Bases” en la lista de íconos a la izquierda.
++ Se presiona el botón "Nueva base de datos" y se le otorga un nombre a esta.
++ Como se quiere cargar una base de datos, ahora en el ícono de tareas se selecciona "importar datos"
++ Se podrán observar los formatos de archivo soportados (ravendbdump, CSV, SQL, NoSQL)
++ Se selecciona por ejemplo archivo CSV, se importa el archivo y se escribe el nombre de la colección a la que se quiere descargar. Cuando ya se encuentre procesado, todos los datos se podrán observar en la colección seleccionada.
++ Si la base de datos contiene valores "missing", Ravendb los colocará de primer lugar en la base.
+
+## Consultas
+
++ Seguidamente, en el apartado “Cosulta”, igualmente en la colección deseada, se desplega un "Query", donde se ingresa el script dependiendo de lo que se desee extraer de la base de datos. Abajo del Query se observarán los resultados, y el tiempo en el que realizó la consulta. 
+
+ ### Para seleccionar donde Reviewer_Location sea "Australia"
+ ```
+    from Disneycsv 
+    where Reviewer_Location = "Australia"
+```
+
+
+ ### Selccionar donde el rating sea 4 y 5
+ ```
+    from Disneycsv 
+    where Rating in (4 , 5)
+```
+    
+
+ ### Seleccionar cuando sea el DisneyLand de California y tenga rating 3 y 4
+ ```
+  from Disneycsv 
+   where Branch = "Disneyland_California" and Rating in (3 , 4)
+```
+
+### Para observar los datos según Rating
+```
+   from Disneycsv
+   group by Rating
+   select key as Rating, count() as Count
+```
+   
+
