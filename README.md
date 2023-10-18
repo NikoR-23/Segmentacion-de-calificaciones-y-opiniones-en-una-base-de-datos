@@ -1,12 +1,13 @@
 # Sistema de recomendaciones
 ## Instalación de CouchDB
-+ Descargar CouchDB en https://couchdb.apache.org/ (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar)
++ Descargar CouchDB en https://couchdb.apache.org/ (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar).
    
 ## Carga de los datos
-+ En primer lugar se debe descargar base en formato de archivo json (compatible con el software). Se encuentra en repositorio llamada como “datos”
++ En primer lugar se debe descargar base en formato de archivo json (compatible con el software). Se encuentra en repositorio llamada como “datos”.
+  
 + En segundo lugar, se ingresa con usuario y contraseña a CouchDB y en el servidor, se crea una base de datos. Se ingresa al apartado “Databases” y en la parte superior
   derecha sale “Create Database”, al crear la base de datos se debe desprende información por llenar de la base como nombre (base_tarea es como se la llamrá)
-  y se selecciona ”Non-partitioned - recommended for most workloads” y se finaliza la creación en “Create”
+  y se selecciona ”Non-partitioned - recommended for most workloads” y se finaliza la creación en “Create”.
 
 ![](https://user-images.githubusercontent.com/147458630/275690075-8f341891-13d6-4c27-943c-5cafa3684e18.png)
 
@@ -132,18 +133,29 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 ```
 ## Instalación de RavenDB
 + Descargar RavenDB en https://ravendb.net/download (se escoge el sistema operativo)
+  
 + Extraer el archivo zip en la carpeta de descarga.
+  
 + Ejecutar con Power Shell el archivo que llamado "run"
-+ Se abrirá de manera automática el navegador y se desplegará la aceptación de licencia
-+ Al aceptar la licencia, y para utilizarlo de manera gratuita se selecciona el modo Noseguro(Unsecured)
+  
++ Se abrirá de manera automática el navegador y se desplegará la aceptación de licencia.
+  
++ Al aceptar la licencia, y para utilizarlo de manera gratuita se selecciona el modo Noseguro(Unsecured).
+  
 
 ## Carga de los datos
-+ En primer lugar, se debe descargar base en formato de archivo csv (compatible con el software)
++ En primer lugar, se debe descargar base en formato de archivo csv (compatible con el software).
+  
 + Se ingresa al apartado “Bases” en la lista de íconos a la izquierda.
+  
 + Se presiona el botón "Nueva base de datos" y se le otorga un nombre a esta.
-+ Como se quiere cargar una base de datos, ahora en el ícono de tareas se selecciona "importar datos"
-+ Se podrán observar los formatos de archivo soportados (ravendbdump, CSV, SQL, NoSQL)
+  
++ Como se quiere cargar una base de datos, ahora en el ícono de tareas se selecciona "importar datos".
+  
++ Se podrán observar los formatos de archivo soportados (ravendbdump, CSV, SQL, NoSQL).
+  
 + En segundo lugar, se selecciona en este caso, archivo CSV, se importa el archivo y se escribe el nombre de la colección a la que se quiere descargar. Cuando ya se encuentre procesado, todos los datos se podrán observar en la colección seleccionada.
+  
 + Si la base de datos contiene valores "missing", Ravendb los colocará de primer lugar en la base.
 
   
