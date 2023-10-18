@@ -1,0 +1,22 @@
+Para seleccionar donde Reviewer_Location sea "Australia"
+   from Disneycsv 
+   where Reviewer_Location = "Australia"
+
+Selccionar donde el rating sea 4 y 5
+   from Disneycsv 
+   where Rating in (4 , 5)
+
+Seleccionar cuando sea el DisneyLand de California y tenga rating 3 y 4
+ from Disneycsv 
+  where Branch = "Disneyland_California" and Rating in (3 , 4)
+
+Para observar los datos según Rating
+   from Disneycsv
+   group by Rating
+   select key as Rating, count() as Count
+
+Buscar reviews que incluyan la palabra "Great" (ya sea en mayúscula o minúscula)
+from "Disneycsv" 
+where regex(Review_Text, "Great")
+
+
