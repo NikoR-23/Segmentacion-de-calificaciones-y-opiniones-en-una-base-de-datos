@@ -1,5 +1,5 @@
 # Sistema de recomendaciones
-Es importante calcar que en las siguientes instrucciones a seguir, se referirá a descargas de softwares para el sistema operativo de Windows.
+Es importante recalcar que en las siguientes instrucciones , se referirá a descargas de softwares para el sistema operativo de Windows.
 
 ## Instalación de CouchDB
 + Descargar CouchDB versión 3.3.2 en [https://couchdb.apache.org/](https://neighbourhood.ie/download-apache-couchdb-win/) (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar).
