@@ -1,6 +1,6 @@
 # Sistema de recomendaciones
 ## Instalación de CouchDB
-+ Descargar CouchDB en https://couchdb.apache.org/ (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar).
++ Descargar CouchDB versión 3.3.2 en [https://couchdb.apache.org/](https://neighbourhood.ie/download-apache-couchdb-win/) (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar).
    
 ## Carga de los datos
 + En primer lugar se debe descargar base en formato de archivo json (compatible con el software). Se encuentra en repositorio llamada como “datos”.
@@ -132,7 +132,7 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 
 ```
 ## Instalación de RavenDB
-+ Descargar RavenDB en https://ravendb.net/download (se escoge el sistema operativo)
++ Descargar RavenDB versión 6.0.0 en https://ravendb.net/download (se escoge el sistema operativo)
   
 + Extraer el archivo zip en la carpeta de descarga.
   
