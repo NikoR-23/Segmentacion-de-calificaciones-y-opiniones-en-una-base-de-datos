@@ -13,7 +13,7 @@
 
 ## Cargar datos a base de datos creada
 + Ahora, por medio de Visual Studio Code y el lenguaje de programación Python, se creó un código que insertará los datos a CouchDB específicamente
-  a la base creada anteriormente. El código se encuentra en repositorio y es el archivo llamado “insertar” en formato Python. Se debe ejecutar el
+  a la base creada anteriormente. El código se encuentra abajo de esta instrucción o en el archivo llamado “insertar” en formato Python que se encuentra en el repositorio. Se debe ejecutar el
   código para que los datos aparezcan en la base. Va debidamente comentado para lograr su ejecución.
 
 ```
@@ -45,9 +45,9 @@ print(f'Se han insertado {len(datos)} documentos en la base de datos.')
 ```
 
 ## Realizar consultas
-+ Seguidamente, en el apartado “Design Documents” se selecciona “Mango Indexes” y seguidamente se le da clic a “edit query”. Ahí se desprende un
-  cuadro de “Mango Query” en donde se deben ir realizando las consultas de seleccionar y filtrar.  Se encuentran en el archivo de texto llamado
-  “Mango” y se debe ingresar una por una en el espacio del mango query para que brinde las filas con la información deseada.
++ Seguidamente, en el apartado “Design Documents” se selecciona “Run A Query with Mango”. Ahí se desprende un
+  cuadro de “Mango Query” en donde se deben ir realizando las consultas de seleccionar y filtrar.  Se encuentran debajo de esta instrucción o en el archivo de texto llamado
+  “Mango” que se encuentra en el repositorio. Se debe ingresar una por una en el espacio del mango query para que brinde las filas con la información deseada.
 
 
   ![](https://user-images.githubusercontent.com/147458630/275691727-9865ad5b-888f-4832-963a-6a6c8904a598.png)
