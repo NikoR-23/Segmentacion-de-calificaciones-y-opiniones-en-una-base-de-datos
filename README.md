@@ -1,4 +1,6 @@
 # Sistema de recomendaciones
+Es importante calcar que en las siguientes instrucciones a seguir, se referirá a descargas de softwares para el sistema operativo de Windows.
+
 ## Instalación de CouchDB
 + Descargar CouchDB versión 3.3.2 en [https://couchdb.apache.org/](https://neighbourhood.ie/download-apache-couchdb-win/) (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar).
    
@@ -12,9 +14,10 @@
 ![](https://user-images.githubusercontent.com/147458630/275690075-8f341891-13d6-4c27-943c-5cafa3684e18.png)
 
 ## Cargar datos a base de datos creada
++ Para la inserción de datos, se necesita del software Visual Studio Code versión 1.83, el cuál se descarga en https://code.visualstudio.com/. 
+
 + Ahora, por medio de Visual Studio Code y el lenguaje de programación Python, se creó un código que insertará los datos a CouchDB específicamente
-  a la base creada anteriormente. El código se encuentra abajo de esta instrucción o en el archivo llamado “insertar” en formato Python que se encuentra en el repositorio. Se debe ejecutar el
-  código para que los datos aparezcan en la base. Va debidamente comentado para lograr su ejecución.
+  a la base creada anteriormente. El código se encuentra abajo de esta instrucción o en el archivo llamado “insertar” en formato Python que se encuentra en el repositorio. Se debe ejecutar el código para que los datos aparezcan en la base. Va debidamente comentado para lograr su ejecución.
 
 ```
 import couchdb
