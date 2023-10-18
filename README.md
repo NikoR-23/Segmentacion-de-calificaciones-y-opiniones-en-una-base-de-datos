@@ -5,7 +5,7 @@ Es importante calcar que en las siguientes instrucciones a seguir, se referirá 
 + Descargar CouchDB versión 3.3.2 en [https://couchdb.apache.org/](https://neighbourhood.ie/download-apache-couchdb-win/) (se escoge un nombre de usuario y contraseña en la instalación que es importante recordar).
    
 ## Carga de los datos
-+ En primer lugar se debe descargar base en formato de archivo json (compatible con el software). Se encuentra en repositorio llamada como “datos”.
++ En primer lugar se debe descargar base en formato de archivo json (compatible con el software). Se encuentra en repositorio llamada como “[datos](https://github.com/NikoR-23/Segmentacion-de-calificaciones-y-opiniones-en-una-base-de-datos/blob/main/datos.json.zip)”.
   
 + En segundo lugar, se ingresa con usuario y contraseña a CouchDB y en el servidor, se crea una base de datos. Se ingresa al apartado “Databases” y en la parte superior
   derecha sale “Create Database”, al crear la base de datos se debe desprende información por llenar de la base como nombre (base_tarea es como se la llamrá)
