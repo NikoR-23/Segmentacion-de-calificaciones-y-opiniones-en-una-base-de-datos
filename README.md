@@ -14,8 +14,8 @@ Es importante calcar que en las siguientes instrucciones a seguir, se referirá 
 ![](https://user-images.githubusercontent.com/147458630/275690075-8f341891-13d6-4c27-943c-5cafa3684e18.png)
 
 ## Cargar datos a base de datos creada
-+ Para la inserción de datos, se necesita del software Visual Studio Code versión 1.83, el cuál se descarga en https://code.visualstudio.com/. 
-
++ Para la inserción de datos, se necesita del software Visual Studio Code y python. 
++ Para instalar Python (https://www.python.org/downloads/) y Visual Studio para Windows (https://code.visualstudio.com/), primero debes descargar el instalador de Python desde el sitio web oficial. Una vez que hayas descargado el instalador, ejecútalo y sigue las instrucciones en pantalla. El instalador te permitirá elegir la        versión de Python que deseas instalar, así como la ubicación en la que deseas instalarla. Una vez que Python esté instalado, debes descargar e instalar la extensión de Python para Visual Studio desde el Marketplace. La extensión de Python te permitirá escribir,   ejecutar y depurar código Python en Visual Studio. Para descargar la extensión, abre Visual Studio y ve a la pestaña Comunidad. Luego, haz clic en el botón Obtener extensiones y busca la extensión Python. Una vez que hayas encontrado la extensión, haz clic en     el botón Instalar. Una vez que la extensión de Python esté instalada, ya podrás comenzar a programar en Python en Visual Studio. 
 + Ahora, por medio de Visual Studio Code y el lenguaje de programación Python, se creó un código que insertará los datos a CouchDB específicamente
   a la base creada anteriormente. El código se encuentra abajo de esta instrucción o en el archivo llamado “insertar” en formato Python que se encuentra en el repositorio. Se debe ejecutar el código para que los datos aparezcan en la base. Va debidamente comentado para lograr su ejecución.
 
